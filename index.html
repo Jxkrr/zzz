@@ -611,7 +611,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <script>
   async function updateViewCount() {
       try {
-          const response = await fetch('https://api-nine-delta-95.vercel.app/api/views');
+          const response = await fetch('https://your-vercel-api.vercel.app/api/views?site=banklimit');
           const data = await response.json();
           
           if (data.success) {
