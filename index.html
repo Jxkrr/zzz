@@ -33,6 +33,35 @@
       }
     }
 
+    .profileStats {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .profileViews,
+    .profileLocation {
+        display: flex !important;
+        align-items: center;
+        gap: 8px;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+
+    .profileViews span,
+    .profileLocation span {
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: inline-block !important;
+    }
+
+    .separator {
+        width: 1px;
+        height: 20px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
     .animate-fade-in {
       opacity: 0;
     }
@@ -62,6 +91,7 @@ a, button, .linkedAccountsRedirect svg, .popup-button {
             min-height: 100vh;
             overflow-x: hidden;
         }
+    
 
         /* Media query debugging */
         @media screen and (max-width: 768px) {
